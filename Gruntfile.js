@@ -47,7 +47,7 @@ module.exports = function(grunt) {
       files: [
         '<%= jshint.files %>'
       ],
-      tasks: ['jshint', 'concat', 'min']
+      tasks: ['jshint','copy','concat','handlebars','min']
     },
     handlebars: {
       compile: {
@@ -69,9 +69,6 @@ module.exports = function(grunt) {
       },
       debug_android: {
         command: 'cordova run android'
-      },
-      debug_blackberry10: {
-        command: 'cordova emulate blackberry10'
       }
     },
     jshint: {

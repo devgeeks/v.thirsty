@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "main": "www/js/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "bower install"
   },
   "author": "tommy-carlos williams (tommy@devgeeks.org)",
   "keywords": [
