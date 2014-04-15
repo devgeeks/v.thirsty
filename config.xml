@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.devgeeks.vthirsty" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>v.thirsty</name>
+    <description>
+        A better vegan beer app
+    </description>
+    <author email="tommy@devgeeks.org" href="http://devgeeks.org">
+      Tommy-Carlos Williams
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="UIWebViewDecelerationSpeed" value="normal" />
+    <preference name="DisallowOverscroll" value="true"/>
+</widget>
